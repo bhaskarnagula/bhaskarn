@@ -432,23 +432,23 @@ img{
 	display: none;
 }
 .readmore_area a {
-  color: #fff;
-  display: inline-block;
-  font-size: 1.35em;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 15px 25px;
-  outline: medium none;
-  position: relative;
-  text-decoration: none;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-  text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.35em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 15px 25px;
+	outline: medium none;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+	text-transform: uppercase;
 }
 .readmore_area {
-  float: left;
-  margin-top: 40px;
-  position: relative;
-  z-index: 1;
+	float: left;
+	margin-top: 40px;
+	position: relative;
+	z-index: 1;
 }
 
 .readmore_area a {
@@ -2847,8 +2847,14 @@ a.gallery-iteam:hover .image-effect::before {
 	
 }
 .about-area {
-	display: inline;
-	float: right;
-	padding: 20px;
-	width: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.readmore_area_center {
+	margin: auto;
+	width: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: auto;
 }

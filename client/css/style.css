@@ -1,13 +1,3 @@
-/*
-Template Name: WpF Medinova - Ultra Modern Responsive Bootstrap Medical Html5 Template
-
-Author: WPFreeware Team
-Author URI: http://wpfreeware.com/
-Description: WpF Medinova - Ultra Modern Responsive Bootstrap Medical Html5 Template
-Version: 1.0
-Tags: light, white,Multi page,Medical,Hospital,Health,custom-colors,Bootstrap,responsive, html5, css3
-*/
-
 
 /* Table of Content
 ==================================================
@@ -28,6 +18,7 @@ Tags: light, white,Multi page,Medical,Hospital,Health,custom-colors,Bootstrap,re
 	#CONTACT
 	#404 page
 	#RESPONSIVE CSS
+	#own
 */
 
 
@@ -2843,9 +2834,12 @@ a.gallery-iteam:hover .image-effect::before {
 #respond input[type="text"], #respond input[type="email"], #respond input[type="url"] {
   width: 100%;
 }
-
-	
 }
+
+/*--------------------*/
+/* Own Extra */
+/*--------------------*/
+
 .about-area {
 	width: 80%;
 	margin-right: auto;
@@ -2857,4 +2851,11 @@ a.gallery-iteam:hover .image-effect::before {
 	padding: 10px;
 	box-sizing: border-box;
 	overflow: auto;
+}
+.flex-box-container {
+	display: flex;
+	border: 0px solid black;
+	padding: 0px;
+	flex-direction: row;
+	justify-content: space-around;
 }

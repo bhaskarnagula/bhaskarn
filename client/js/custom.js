@@ -1,10 +1,4 @@
 /**	
-	* Template Name: WpF Medinova - Ultra Modern Responsive Bootstrap Educational Html5 Template
-	* Version: 1.0	
-	* Template Scripts
-	* Author: WpFreeware Team
-	* Author URI: http://wpfreeware.com/
-
 	Custom JS
 	
 	1. DROPDOWN MENU

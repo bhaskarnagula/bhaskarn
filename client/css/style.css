@@ -18,7 +18,7 @@
 	#CONTACT
 	#404 page
 	#RESPONSIVE CSS
-	#own
+	#Extra
 */
 
 
@@ -2837,20 +2837,12 @@ a.gallery-iteam:hover .image-effect::before {
 }
 
 /*--------------------*/
-/* Own Extra */
+/* Extra */
 /*--------------------*/
-
 .about-area {
-	width: 80%;
+	width: 95%;
 	margin-right: auto;
 	margin-left: auto;
-}
-.readmore_area_center {
-	margin: auto;
-	width: 300px;
-	padding: 10px;
-	box-sizing: border-box;
-	overflow: auto;
 }
 .flex-box-container {
 	display: flex;

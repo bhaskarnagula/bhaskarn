@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>Coursers module3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -12,9 +12,72 @@
 </head>
 <body>
     <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Food, LLC</h1></a>
+                    </div>
 
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li><a href="chicken.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Chicken</a></li>
+                        <li><a href="beef.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Beef</a></li>
+                        <li><a href="sushi.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Sushi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <div id="main-tiles" class="container">
+        <h1>Our Menu</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a>
+                    <div id="menu-tile">
+                        <span>Chiecken</span><br />
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile.
+                            To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section.
+                            Make sure its background color is set to distinguish it from the rest of the content.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a>
+                    <div id="specials-tile">
+                        <span>Beef</span><br />
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile.
+                            To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section.
+                            Make sure its background color is set to distinguish it from the rest of the content.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a>
+                    <div id="map-tile">
+                        <span>Sushi</span><br />
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile.
+                            To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section.
+                            Make sure its background color is set to distinguish it from the rest of the content.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->

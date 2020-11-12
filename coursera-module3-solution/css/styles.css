@@ -1,0 +1,64 @@
+#header-nav {
+    background-color: grey;
+    height: 70px;
+    border-radius: 0;
+}
+.navbar-brand h1 {
+    color: black;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    position: relative;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+}
+
+    #nav-list a {
+        color: #951C49;
+        text-align: center;
+        background-color: grey;
+        font-weight: bold;
+        color: black;
+    }
+.navbar-header button .navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button .navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#main-tiles {
+    position: relative;
+}
+#main-tiles h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#menu-tile, #specials-tile, #map-tile {
+    width: auto;
+    border-color: black;
+    border: 5px solid black;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+    #menu-tile span, #specials-tile span, #map-tile span {
+        text-align: center;
+        padding: 150px;
+        width: 100%;
+        text-decoration-color: none;
+        color: black;
+        font-weight: 700;
+    }
+#menu-tile p, #specials-tile p, #map-tile p {
+    padding: 0 10px;
+    color: black;
+}

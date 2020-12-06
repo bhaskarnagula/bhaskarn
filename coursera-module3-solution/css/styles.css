@@ -2,7 +2,9 @@
     background-color: grey;
     height: 70px;
     border-radius: 0;
+    padding-top: 10px;
 }
+
 .navbar-brand h1 {
     color: black;
     text-shadow: 1px 1px 1px #222;
@@ -38,6 +40,8 @@
 }
 #main-tiles {
     position: relative;
+    display: inline-block;
+    width: 100%;
 }
 #main-tiles h1{
     text-align: center;
@@ -52,7 +56,8 @@
 }
     #menu-tile span, #specials-tile span, #map-tile span {
         text-align: center;
-        padding: 150px;
+
+        padding-right: 50%;
         width: 100%;
         text-decoration-color: none;
         color: black;
